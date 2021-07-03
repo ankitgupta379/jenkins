@@ -5,7 +5,7 @@ phases:
     commands:
         - ls -ltr
         - python --version
-        - pip install Flask
+        - pythom -m pip install Flask
   build:
     commands:
       - echo Build started on `date`
